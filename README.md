@@ -7,11 +7,11 @@ It helps teams keep the important parts of a project easy to find and reuse: cur
 > **Make project context easy for people and AI to find, understand, and reuse.**
 
 <p align="center">
-  <img src="assets/uxai-context-overview.svg" alt="UX AI Context infographic — from scattered work to shared understanding" width="100%">
+  <img src="assets/uxai-context-overview.jpg" alt="UX AI Context — shared context turns good work into greater impact" width="100%">
 </p>
 
 <p align="center">
-  <a href="assets/uxai-context-overview.svg">View the full-size overview</a>
+  <a href="assets/uxai-context-overview.jpg">View the full-size overview</a>
 </p>
 
 ---
