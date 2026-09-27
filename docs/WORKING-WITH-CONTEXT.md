@@ -45,6 +45,26 @@ If yes, make the smallest useful update.
 
 ---
 
+# Contribute by function, not title
+
+You do not need to wait for a particular role to capture useful context.
+
+If you explored something, capture the evidence or learning.
+
+If you created or prototyped something, capture the intent and what changed.
+
+If you helped build it, capture implementation learning.
+
+If you guided a decision, capture the rationale.
+
+If you enabled the work, capture the connection, constraint, or operating context that matters later.
+
+Specialist expertise still matters. The goal is simply to let contribution span more of the work without losing the depth behind it.
+
+> **The work can cross role boundaries. The context should remain connected.**
+
+---
+
 # Five common contribution types
 
 ## 1. Current state
