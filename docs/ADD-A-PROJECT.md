@@ -85,6 +85,8 @@ Think of this as the living snapshot.
 
 Provide a minimal machine-readable identity and source map.
 
+When known, identify who is stewarding the project context and when it was last reviewed. This is lightweight stewardship, not a new approval process.
+
 Do not add fields unless there is a demonstrated use for them.
 
 ---
