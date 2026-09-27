@@ -1,0 +1,14 @@
+id: periscope
+name: Periscope
+status: active
+group: ux-ai
+
+context:
+  readme: ./README.md
+  current: ./now.md
+
+sources:
+  github:
+  figma:
+  jira:
+  sharepoint:
