@@ -54,6 +54,16 @@ It connects them with durable context.
 
 > **Link to the artifact. Capture the context.**
 
+### Deep expertise. Broader contribution. Shared context.
+
+UX AI Context is designed for teams where contribution increasingly crosses traditional role boundaries without erasing specialist depth.
+
+A researcher may help shape an experience. A designer may prototype working behavior. A design engineer may influence interaction direction. Product, content, engineering, and AI-enabled contributors may all move work forward in different ways.
+
+The point is **not** that everyone does everything. The point is that fewer handoffs are required when people have the context and capability to contribute meaningfully across the loop.
+
+Shared context helps that broader contribution retain depth: evidence, rationale, design intent, decisions, implementation learning, and history remain connected.
+
 ---
 
 ## The project pattern
@@ -246,6 +256,8 @@ That is the system.
 ## Principles
 
 - **Keep context close to the work.**
+- **Deep expertise. Broader contribution. Shared context.**
+- **Reduce handoffs when context and capability allow the work to continue.**
 - **Capture what will remain useful.**
 - **Link rather than duplicate.**
 - **Standardize the entry points, not every project's content.**
