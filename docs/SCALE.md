@@ -156,7 +156,8 @@ A project is healthy when:
 - useful research is linked
 - primary artifacts have authoritative links
 - someone new can orient without a meeting
-- Copilot can answer basic context questions from the repo
+- people and AI can answer important project questions from the repo and its linked sources
+- missing answers expose useful context gaps rather than triggering blanket documentation
 - the team is not spending significant time maintaining the system
 
 If maintaining the context becomes the work, simplify it.
