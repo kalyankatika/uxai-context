@@ -6,6 +6,8 @@ group: ux-ai
 context:
   readme: ./README.md
   current: ./now.md
+  steward:
+  reviewed:
 
 sources:
   github:
