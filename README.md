@@ -1,86 +1,114 @@
 # UX AI Context
 
-`uxai-context` is a shared, versioned context repository for UX AI work.
+A shared, versioned context layer for UX AI work.
 
-It gives teams a lightweight place to capture durable project context: current state, plans, decisions, research, meeting outcomes, prototype learnings, important references, and links to source artifacts.
+It helps teams keep the important parts of a project easy to find and reuse: current state, decisions, research, meeting outcomes, prototype learnings, source links, and the reasoning behind the work.
 
-> **Goal: make project context easy for people and AI to find, understand, and reuse.**
+> **Make project context easy for people and AI to find, understand, and reuse.**
 
-We are starting small with a baseline structure and a few conventions. We will evolve it through actual use.
+---
 
-## New here? Start here
+## Start here
 
-You do **not** need deep Git knowledge to contribute. If you can edit a Markdown file, you can help keep context current.
+Choose the path that matches what you need.
 
-### 1. Get the repository
-Using **GitHub Desktop**: open GitHub Desktop → **File → Clone Repository** → select `uxai-context` → choose a local folder → **Clone**.
-
-### 2. Open it in VS Code
-From GitHub Desktop choose **Repository → Open in Visual Studio Code**.
-
-### 3. Use GitHub Copilot
-Sign in to GitHub in VS Code and make sure Copilot is enabled.
-
-Useful prompts:
-- "Read the project README and now.md before helping me with this task."
-- "Find previous decisions or research related to this topic."
-- "Turn these notes into the appropriate context update using our templates."
-- "What project context should I update based on what I just worked on?"
-
-Copilot should reduce documentation effort, not create more process.
-
-## What are you trying to do?
-
-| I want to... | Go here |
+| I want to... | Start here |
 |---|---|
-| Understand the current project | [Project README](projects/periscope/README.md) |
-| See what is happening now | [Current state](projects/periscope/now.md) |
-| Capture an important decision | [Decision template](templates/decision.md) |
-| Capture useful meeting outcomes | [Meeting template](templates/meeting.md) |
-| Add a research finding | [Research note template](templates/research-note.md) |
-| Capture a meaningful piece of work | [Work thread template](templates/work-thread.md) |
-| Browse decisions | [Decisions](projects/periscope/decisions/) |
-| Browse meeting notes | [Meetings](projects/periscope/meetings/) |
-| Browse research | [Research](projects/periscope/research/) |
-| Browse prototype context | [Prototypes](projects/periscope/prototypes/) |
-| See completed examples before writing | [Templates + reference examples](templates/README.md) |
+| Join the repo for the first time | [Getting Started](docs/GETTING-STARTED.md) |
+| Add notes, research, decisions, or updates | [Working with Context](docs/WORKING-WITH-CONTEXT.md) |
+| See blank templates and completed examples | [Templates](templates/README.md) |
+| Start a new project using the same setup | [Add a Project](docs/ADD-A-PROJECT.md) |
+| Understand how this scales across teams | [Scale the System](docs/SCALE.md) |
+| Use Copilot or another AI agent with the repo | [Agent Guide](AGENTS.md) |
 
-If you are unsure where something belongs, use the closest reasonable place. We can improve the structure later.
+If you are new to GitHub, start with **Getting Started**. You can contribute directly on GitHub.com without installing anything.
 
-## The simplest contribution flow
+---
 
-1. **Pull** the latest version in GitHub Desktop.
-2. **Open** the relevant file or copy a template.
-3. **Write normally** in Markdown.
-4. **Save** in VS Code.
-5. Review the change in GitHub Desktop.
-6. **Commit** with a short meaningful message.
-7. **Push** your change.
+## How it works
 
-For larger or higher-impact changes, use a branch and pull request when review adds value. GitHub.com is also useful for quick reading, small edits, history, and review.
+```text
+Daily work happens where it belongs
+Figma · Jira · SharePoint · Teams · code repositories
+                         │
+                         ▼
+                 uxai-context
+          durable context + links + Git history
+                         │
+        ┌────────────────┼────────────────┐
+        ▼                ▼                ▼
+     People         Copilot/agents     Periscope
+```
 
-## What should I capture?
+The repository does **not** try to replace the tools teams already use.
 
-Do not document everything.
+It connects them with durable context.
 
-Ask:
+> **Link to the artifact. Capture the context.**
 
-> **Would another teammate benefit from knowing this next week or three months from now?**
+---
 
-Good things to capture:
-- an important decision
-- something research taught us
-- a meaningful change in direction
-- a useful meeting outcome
-- a prototype and what we learned from it
-- an assumption being tested
-- a blocker or open question
-- the team's current focus
-- links to important artifacts
+## The project pattern
 
-Usually do **not** capture every chat message, every small task, routine status updates, or copies of information that already has a clear authoritative source elsewhere.
+Every project starts with the same small contract:
 
-## Where does information live?
+```text
+projects/<project>/
+├── README.md       # what the project is
+├── now.md          # what matters right now
+├── project.yaml    # lightweight structured identity
+├── decisions/
+├── meetings/
+├── research/
+└── prototypes/
+```
+
+This gives people a predictable place to start and gives AI/downstream tools a consistent structure to understand.
+
+Use the [Project Starter Kit](templates/project-starter/) when adding another project.
+
+---
+
+## Current project
+
+### [Periscope](projects/periscope/)
+
+Periscope is one of the first projects using this context pattern and can also consume the structured context as part of UX AI dogfooding.
+
+Start with:
+
+- [Project overview](projects/periscope/README.md)
+- [Current state](projects/periscope/now.md)
+
+Periscope is one consumer of the context layer, not the reason the repository exists.
+
+---
+
+## What belongs here
+
+Capture durable context that will help someone understand or advance the work later.
+
+Good examples:
+
+- important decisions and why they were made
+- research findings and implications
+- meaningful changes in project direction
+- prototype learnings
+- important open questions
+- useful meeting outcomes
+- links to authoritative artifacts
+- the current project snapshot
+
+Usually skip:
+
+- every chat message
+- every small task
+- routine status narration
+- copies of content that already has a source of truth elsewhere
+
+---
+
+## Where does the source live?
 
 | Type of work | Usually lives in |
 |---|---|
@@ -91,40 +119,88 @@ Usually do **not** capture every chat message, every small task, routine status 
 | Fast conversation | Teams |
 | Durable project context | `uxai-context` |
 
-> **Link, don't duplicate.**
+The context repo should explain **why something matters, what changed, what we learned, and where to find the authoritative artifact**.
 
-Use the repository to preserve the context around source artifacts: why they matter, what changed, what we learned, and where the source lives.
+---
+
+## Two contribution modes
+
+### GitHub.com — easiest
+
+Best for quick updates and people new to Git.
+
+Open a file → **Edit** → make the change → **Commit changes**.
+
+To add a new note:
+
+1. open [Templates](templates/README.md)
+2. copy the template you need
+3. go to the relevant project folder
+4. choose **Add file → Create new file**
+5. paste, edit, and commit
+
+See [Getting Started](docs/GETTING-STARTED.md).
+
+### GitHub Desktop + VS Code + Copilot — best for regular contributors
+
+Pull → open in VS Code → edit → review in GitHub Desktop → commit → push.
+
+Copilot can help orient you, find related context, and turn rough notes into concise durable records.
+
+---
+
+## Designed to scale with AI
+
+The structure is intentionally simple today but useful for increasingly capable AI systems and long-running agents.
+
+Clear, linked, versioned files give agents durable state they can use to:
+
+- orient to a project
+- find related decisions and research
+- prepare for meetings
+- summarize what changed
+- identify open questions
+- suggest context updates
+- connect work across artifacts
+- continue longer-running tasks
+
+We do **not** need to build a separate agent platform now.
+
+The foundation is:
+
+**clear files + consistent entry points + source links + Git history + human review.**
+
+See [AGENTS.md](AGENTS.md).
+
+---
 
 ## Initial use cases
 
-1. **Shared project context** — quickly understand what a project is, where it stands, and what matters now.
-2. **Day-to-day collaboration** — preserve useful context created through research, design, content, product, engineering, planning, and working sessions.
-3. **AI-assisted project work** — give GitHub Copilot and future agents reliable, versioned project context.
-4. **Onboarding** — help someone new orient without reconstructing project history through meetings and chat.
-5. **Reporting and synthesis** — derive summaries, decisions, risks, and progress from existing work instead of creating separate reporting.
-6. **Context experiences** — structured context can be consumed by experiences such as **Periscope** for discovery, navigation, relationships, summaries, project visibility, and dogfooding UX AI capabilities against real working context.
-7. **Future discovery** — shared conventions can increasingly connect projects, people, research, decisions, prototypes, capabilities, and learnings.
+1. **Shared project context** — understand what a project is and where it stands.
+2. **Day-to-day collaboration** — retain useful context created while the team works.
+3. **AI-assisted work** — give Copilot and future agents reliable project state.
+4. **Onboarding** — help new contributors orient without reconstructing history.
+5. **Reporting and synthesis** — derive updates from existing context.
+6. **Context experiences** — support Periscope and other discovery/navigation experiences.
+7. **Future discovery** — connect projects, people, research, decisions, prototypes, and learnings as the system grows.
 
-## Designed for people and AI
+---
 
-This repository should remain easy for a teammate to read while also becoming increasingly useful to capable AI systems and long-running agents.
-
-Clear, linked, structured, versioned files can support agents that help with project orientation, finding related decisions and research, preparing for meetings, summarizing changes, identifying open questions, maintaining context, connecting artifacts, preparing reviews, and continuing longer-running tasks.
-
-We do **not** need to build all of that now.
-
-Our starting point is simply to keep context:
-
-**clear, current, linked, structured, and versioned.**
-
-See [AGENTS.md](AGENTS.md) for lightweight guidance for AI tools working in this repository.
-
-## Repository structure
+## Repository map
 
 ```text
 uxai-context/
 ├── README.md
+├── CONTRIBUTING.md
 ├── AGENTS.md
+│
+├── docs/
+│   ├── README.md
+│   ├── GETTING-STARTED.md
+│   ├── WORKING-WITH-CONTEXT.md
+│   ├── ADD-A-PROJECT.md
+│   └── SCALE.md
+│
 ├── projects/
 │   └── periscope/
 │       ├── README.md
@@ -134,59 +210,38 @@ uxai-context/
 │       ├── meetings/
 │       ├── research/
 │       └── prototypes/
+│
 └── templates/
     ├── README.md
     ├── decision.md
     ├── meeting.md
     ├── research-note.md
     ├── work-thread.md
+    ├── project-starter/
     └── examples/
-        ├── decision-example.md
-        ├── meeting-example.md
-        ├── research-note-example.md
-        ├── work-thread-example.md
-        └── now-example.md
 ```
 
-This is intentionally small. Additional projects and structure can be added when useful.
-
-## Lightweight metadata
-
-Some files use a small block at the top called **frontmatter**:
-
-```yaml
 ---
-type: decision
-project: periscope
-status: active
-date: 2026-09-27
-topics:
-  - discoverability
-  - context
----
-```
 
-You usually do not need to worry about it. Templates already include it.
+## The operating rule
 
-Metadata should stay minimal and only exist when it improves discoverability, AI context, automation, reporting, or downstream experiences.
-
-## A simple rule for everyone
-
-When you finish meaningful work, ask:
+When meaningful work happens, ask:
 
 > **Did we learn, decide, or change something another person should be able to find later?**
 
-If yes, spend a few minutes updating the appropriate context.
+If yes, make the smallest useful context update.
 
 That is the system.
 
-## Working principles
+---
+
+## Principles
 
 - **Keep context close to the work.**
 - **Capture what will remain useful.**
 - **Link rather than duplicate.**
+- **Standardize the entry points, not every project's content.**
 - **Prefer current context over exhaustive documentation.**
-- **Make decisions and learnings discoverable.**
-- **Use AI to reduce documentation effort, not increase process.**
+- **Use AI to reduce coordination and documentation effort.**
 - **Write once and enable many uses.**
 - **Let the system evolve through use.**
