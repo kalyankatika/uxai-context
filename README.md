@@ -43,6 +43,7 @@ Copilot should reduce documentation effort, not create more process.
 | Browse meeting notes | [Meetings](projects/periscope/meetings/) |
 | Browse research | [Research](projects/periscope/research/) |
 | Browse prototype context | [Prototypes](projects/periscope/prototypes/) |
+| See completed examples before writing | [Templates + reference examples](templates/README.md) |
 
 If you are unsure where something belongs, use the closest reasonable place. We can improve the structure later.
 
@@ -134,10 +135,17 @@ uxai-context/
 │       ├── research/
 │       └── prototypes/
 └── templates/
+    ├── README.md
     ├── decision.md
     ├── meeting.md
     ├── research-note.md
-    └── work-thread.md
+    ├── work-thread.md
+    └── examples/
+        ├── decision-example.md
+        ├── meeting-example.md
+        ├── research-note-example.md
+        ├── work-thread-example.md
+        └── now-example.md
 ```
 
 This is intentionally small. Additional projects and structure can be added when useful.
