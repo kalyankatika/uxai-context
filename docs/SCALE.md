@@ -38,14 +38,24 @@ The system works when context is updated as part of normal work.
 
 Do not create a central documentation owner who becomes responsible for reconstructing everyone else's project.
 
-Instead:
+As roles increasingly overlap, organize contribution around the **function being performed**, not a rigid job boundary.
 
-- designers capture durable design decisions and learnings
-- researchers capture findings and implications
-- content captures durable language or content decisions
-- design engineering captures prototype/implementation context
-- product captures outcome, priority, and major direction changes
-- anyone can update `now.md` when the project changes
+Common functions include:
+
+- **Explore** — research, discovery, evidence, questions
+- **Create** — experience ideas, content, flows, design intent
+- **Build** — prototypes, implementation, technical learning
+- **Guide** — outcomes, strategy, priorities, decisions
+- **Enable** — systems, facilitation, operations, connections
+- **Learn** — evaluation, synthesis, reflection, iteration
+
+A person may contribute through several of these functions on the same project.
+
+This does **not** remove specialist expertise. It lets deep specialists participate across more of the delivery loop when they have the context and capability to do so.
+
+Capture context close to the work that produced it, regardless of title. Anyone can update `now.md` when reality changes.
+
+> **Deep expertise. Broader contribution. Shared context.**
 
 Ownership stays close to the source.
 
