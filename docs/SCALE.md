@@ -61,7 +61,43 @@ Ownership stays close to the source.
 
 ---
 
-# 3. Scale through common metadata
+# 3. Scale reuse from real work
+
+Reusable capability should emerge from work that has already proven useful.
+
+Use this progression:
+
+```text
+one-off work
+    ↓
+useful again
+    ↓
+repeatable pattern
+    ↓
+shared asset
+```
+
+Do not build a library of hypothetical future assets.
+
+Start inside the project. When something clearly helps another project or team, distill the smallest reusable part and place it under [`shared/`](../shared/README.md).
+
+Examples may eventually include:
+
+- patterns
+- skills or workflows
+- lightweight agent recipes
+- prompts with demonstrated repeat value
+- starter/reference implementations
+- internal tooling references
+- pointers to authoritative standards
+
+Do not pre-create category folders until enough real assets exist to justify them.
+
+> **Capture the reusable part, not everything.**
+
+This is how prototype and project work compounds instead of disappearing when the immediate work ends.
+
+# 4. Scale through common metadata
 
 Keep frontmatter small and consistent.
 
@@ -79,7 +115,7 @@ Periscope and agent workflows can drive future metadata additions based on actua
 
 ---
 
-# 4. Scale through consumers
+# 5. Scale through consumers
 
 The repository itself does not need to become the final experience for every audience.
 
@@ -109,7 +145,7 @@ Keep the source understandable by itself.
 
 ---
 
-# 5. Scale permissions carefully
+# 6. Scale permissions carefully
 
 The repo can point to source systems with different access levels.
 
@@ -127,7 +163,7 @@ The context layer should connect governed systems, not bypass them.
 
 ---
 
-# 6. Scale agent capability gradually
+# 7. Scale agent capability gradually
 
 The repository is already useful to Copilot and other agents because state is explicit and versioned.
 
@@ -156,7 +192,7 @@ Good files, links, Git history, and clear instructions are the foundation.
 
 ---
 
-# 7. Health checks for scale
+# 8. Health checks for scale
 
 A project is healthy when:
 
