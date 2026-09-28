@@ -2,7 +2,7 @@
 
 ## UX AI Context overview
 
-[uxai-context-overview.jpg](uxai-context-overview.jpg) is the current storytelling visual for the UX AI Context approach.
+[uxai-context-overview.png](uxai-context-overview.png) is the current canonical storytelling visual for UX AI Context and is featured in the root README.
 
 Use it for:
 
@@ -10,8 +10,12 @@ Use it for:
 - team conversations
 - presentations and readouts
 - sharing the concept with new contributors
-- explaining how shared project context connects people, AI, and downstream experiences such as Periscope
+- explaining how useful context helps people and AI understand, continue, and reuse work
 
-The visual intentionally emphasizes **functions rather than fixed job titles** so it remains useful as design, research, product, engineering, content, operations, and AI-enabled work increasingly overlap.
+The visual stays intentionally conceptual. The repository carries the detailed operating model.
 
-The repository remains the durable source of project context. The visual is the communication layer and can evolve as the operating model evolves.
+## Archive
+
+Earlier visuals are preserved under [archive/](archive/) for reference and their own storytelling value.
+
+The repository remains the durable source of project context. Visuals are communication assets and can evolve as the operating model matures.

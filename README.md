@@ -7,11 +7,11 @@ It helps people and AI understand what matters, continue work without reconstruc
 > **Make useful project context easy to find, understand, contribute to, and reuse.**
 
 <p align="center">
-  <img src="assets/uxai-context-overview.jpg" alt="UX AI Context — shared context turns good work into greater impact" width="100%">
+  <img src="assets/uxai-context-overview.png" alt="UX AI Context — shared context for greater impact" width="100%">
 </p>
 
 <p align="center">
-  <a href="assets/uxai-context-overview.jpg">View the full-size overview</a>
+  <a href="assets/uxai-context-overview.png">View the full-size overview</a>
 </p>
 
 ---
