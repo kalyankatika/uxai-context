@@ -26,6 +26,7 @@ Choose the path that matches what you need.
 | Add notes, research, decisions, or updates | [Working with Context](docs/WORKING-WITH-CONTEXT.md) |
 | See blank templates and completed examples | [Templates](templates/README.md) |
 | Start a new project using the same setup | [Add a Project](docs/ADD-A-PROJECT.md) |
+| Share something that has proven reusable | [Shared assets](shared/README.md) |
 | Understand how this scales across teams | [Scale the System](docs/SCALE.md) |
 | Use Copilot or another AI agent with the repo | [Agent Guide](AGENTS.md) |
 
@@ -200,7 +201,8 @@ See [AGENTS.md](AGENTS.md).
 4. **Onboarding** — help new contributors orient without reconstructing history.
 5. **Reporting and synthesis** — derive updates from existing context.
 6. **Context experiences** — support Periscope and other discovery/navigation experiences.
-7. **Future discovery** — connect projects, people, research, decisions, prototypes, and learnings as the system grows.
+7. **Reusable capability** — let useful patterns, skills, prompts, agent recipes, and tooling references emerge from real project work.
+8. **Future discovery** — connect projects, people, research, decisions, prototypes, and learnings as the system grows.
 
 ---
 
@@ -229,6 +231,9 @@ uxai-context/
 │       ├── research/
 │       └── prototypes/
 │
+├── shared/
+│   └── README.md
+│
 └── templates/
     ├── README.md
     ├── decision.md
@@ -249,6 +254,8 @@ When meaningful work happens, ask:
 
 If yes, make the smallest useful context update.
 
+If part of the work proves useful beyond the project, consider promoting only that reusable part into [`shared/`](shared/README.md).
+
 That is the system.
 
 ---
@@ -259,6 +266,7 @@ That is the system.
 - **Deep expertise. Broader contribution. Shared context.**
 - **Reduce handoffs when context and capability allow the work to continue.**
 - **Capture what will remain useful.**
+- **Capture the reusable part, not everything.**
 - **Link rather than duplicate.**
 - **Standardize the entry points, not every project's content.**
 - **Prefer current context over exhaustive documentation.**
