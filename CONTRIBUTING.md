@@ -23,6 +23,7 @@ Start with [Getting Started](docs/GETTING-STARTED.md).
 | Meeting outcome | `projects/<project>/meetings/` |
 | Research finding | `projects/<project>/research/` |
 | Prototype learning | `projects/<project>/prototypes/` |
+| Proven reusable pattern, skill, agent recipe, prompt, or tooling reference | [`shared/`](shared/README.md) |
 
 ## Two ways to contribute
 
@@ -43,5 +44,9 @@ See the full [Getting Started guide](docs/GETTING-STARTED.md).
 ## Keep it light
 
 Capture durable context, not every activity.
+
+If something came from a Teams, Viva Engage, email, demo, or working conversation, only bring it here when it will remain useful beyond that moment.
+
+If something proves useful beyond one project, capture only the reusable part in [`shared/`](shared/README.md).
 
 > **Link to the artifact. Capture the context.**
