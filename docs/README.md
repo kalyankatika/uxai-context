@@ -1,15 +1,31 @@
-# UX AI Context — Guide
+# UX AI Context — Guides
 
-This folder contains the practical guides for using and scaling `uxai-context`.
+Use this folder when you need more detail than the root [README](../README.md).
 
-## Choose your path
+## Start with the task, not the documentation
 
-| I am... | Start here |
+| Need | Guide |
 |---|---|
-| New to the repo or new to GitHub | [Getting started](GETTING-STARTED.md) |
-| Contributing notes, research, decisions, or project updates | [Working with context](WORKING-WITH-CONTEXT.md) |
-| Starting a new project in this repo | [Add a project](ADD-A-PROJECT.md) |
-| Helping the approach scale across teams | [Scale the system](SCALE.md) |
-| Using Copilot or another agent | [Agent guide](../AGENTS.md) |
+| I am new to the repo or new to GitHub | [Getting Started](GETTING-STARTED.md) |
+| I need to capture or update project context | [Working with Context](WORKING-WITH-CONTEXT.md) |
+| I need to add another project | [Add a Project](ADD-A-PROJECT.md) |
+| I need to understand how the model can scale | [Scale the System](SCALE.md) |
+| I want templates or examples | [Templates](../templates/README.md) |
+| I want the community contribution principles | [Community](../community/README.md) |
+| I am using Copilot or another agent | [Agent Guide](../AGENTS.md) |
 
-The goal is not to teach Git. The goal is to make contributing useful context feel simple and predictable.
+## What stays intentionally simple
+
+The system should remain easy to understand without reading every guide.
+
+At the project level:
+
+- `README.md` = what the project is
+- `now.md` = what matters right now
+- `work/` = meaningful active threads that need evolving context
+- `decisions/`, `research/`, `prototypes/` = durable outcomes
+- `shared/` = only the parts that have proven useful beyond one project
+
+The goal is not documentation completeness.
+
+> **The goal is enough high-signal context for people and AI to understand, continue, and reuse the work.**
