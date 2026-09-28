@@ -1,8 +1,8 @@
 # UX AI Context
 
-A shared, versioned context layer for UX AI work.
+A shared, versioned context and collaboration layer for UX AI work.
 
-It helps teams keep the important parts of a project easy to find and reuse: current state, decisions, research, meeting outcomes, prototype learnings, source links, and the reasoning behind the work.
+It helps project teams and the broader UX AI community keep useful work easy to find, understand, contribute to, and reuse: current state, decisions, research, prototypes, reusable patterns, source links, and the reasoning behind the work.
 
 > **Make project context easy for people and AI to find, understand, and reuse.**
 
@@ -54,6 +54,37 @@ The repository does **not** try to replace the tools teams already use.
 It connects them with durable context.
 
 > **Link to the artifact. Capture the context.**
+
+### How this fits with the UX AI community
+
+UX AI Context is the durable layer behind the conversations and sharing that happen across the community.
+
+```text
+Teams · Viva Engage · email · demos · conversations
+                     │
+             discover / discuss / share
+                     │
+                     ▼
+                uxai-context
+        capture / connect / reuse / evolve
+                     │
+        ┌────────────┼────────────┐
+        ▼            ▼            ▼
+     projects      shared       agents /
+                  capability    Periscope
+```
+
+Use community channels for reach, conversation, questions, demos, and invitations to participate.
+
+Use `uxai-context` when something should remain useful after the conversation: project context, a decision, research, prototype learning, a reusable pattern, a skill, an agent recipe, or a link to useful internal tooling.
+
+The repo is **not** intended to replace Teams, Viva Engage, email, Jira, or other systems. It gives the community a shared place where useful work can compound instead of disappearing into individual channels.
+
+A healthy loop is:
+
+```text
+share something → discuss it → try/build/learn → capture what matters → share it back
+```
 
 ### Deep expertise. Broader contribution. Shared context.
 
@@ -196,13 +227,14 @@ See [AGENTS.md](AGENTS.md).
 ## Initial use cases
 
 1. **Shared project context** — understand what a project is and where it stands.
-2. **Day-to-day collaboration** — retain useful context created while the team works.
-3. **AI-assisted work** — give Copilot and future agents reliable project state.
-4. **Onboarding** — help new contributors orient without reconstructing history.
-5. **Reporting and synthesis** — derive updates from existing context.
-6. **Context experiences** — support Periscope and other discovery/navigation experiences.
-7. **Reusable capability** — let useful patterns, skills, prompts, agent recipes, and tooling references emerge from real project work.
-8. **Future discovery** — connect projects, people, research, decisions, prototypes, and learnings as the system grows.
+2. **Community collaboration** — give Teams, Viva Engage, email, demos, and working conversations a durable place to land useful outcomes.
+3. **Day-to-day collaboration** — retain useful context created while the team works.
+4. **AI-assisted work** — give Copilot and future agents reliable project state.
+5. **Onboarding** — help new contributors orient without reconstructing history.
+6. **Reporting and synthesis** — derive updates from existing context.
+7. **Context experiences** — support Periscope and other discovery/navigation experiences.
+8. **Reusable capability** — let useful patterns, skills, prompts, agent recipes, and tooling references emerge from real project work.
+9. **Future discovery** — connect projects, people, research, decisions, prototypes, and learnings as the system grows.
 
 ---
 
