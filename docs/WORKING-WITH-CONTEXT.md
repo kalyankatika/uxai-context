@@ -112,6 +112,24 @@ Capture why something was explored, where it lives, what was learned, and what h
 
 ---
 
+# When something becomes reusable
+
+Most work should stay with the project that produced it.
+
+If a pattern, workflow, prompt, skill, agent recipe, or tooling reference proves useful beyond that project, capture **only the reusable part**.
+
+A useful progression is:
+
+```text
+project work → used again → repeatable → shared
+```
+
+Use [`shared/`](../shared/README.md) only when there is real reuse. Do not promote every experiment or create shared structure in anticipation of future demand.
+
+> **Capture the reusable part, not everything.**
+
+---
+
 # The source rule
 
 When information already has an authoritative home, keep it there.
