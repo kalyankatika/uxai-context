@@ -1,10 +1,10 @@
 # UX AI Context
 
-A shared, versioned context and collaboration layer for UX AI work.
+A shared, versioned **context and collaboration layer** for UX AI work.
 
-It helps project teams and the broader UX AI community keep useful work easy to find, understand, contribute to, and reuse: current state, decisions, research, prototypes, reusable patterns, source links, and the reasoning behind the work.
+It helps people and AI understand what matters, continue work without reconstructing history, and reuse the parts that deserve to compound.
 
-> **Make project context easy for people and AI to find, understand, and reuse.**
+> **Make useful project context easy to find, understand, contribute to, and reuse.**
 
 <p align="center">
   <img src="assets/uxai-context-overview.jpg" alt="UX AI Context — shared context turns good work into greater impact" width="100%">
@@ -16,299 +16,90 @@ It helps project teams and the broader UX AI community keep useful work easy to 
 
 ---
 
+## What this is
+
+UX AI Context connects three lightweight layers:
+
+| Layer | Purpose |
+|---|---|
+| [`projects/`](projects/) | Durable context around active project work |
+| [`shared/`](shared/) | Reusable capability that has proven valuable beyond one project |
+| [`community/`](community/) | Principles for how community activity can surface, incubate, and promote meaningful contributions |
+
+Primary artifacts still live where they belong: Figma, code repositories, Jira, SharePoint, Teams, and other source systems.
+
+UX AI Context preserves the **why, learning, decisions, relationships, and links** around that work.
+
+> **Link to the artifact. Capture the context.**
+
+---
+
 ## Current focus
 
-We are intentionally keeping the system small while we prove it through real work.
+We are deliberately proving the system through real work before adding more structure.
 
-1. **Establish UX AI Context as the shared umbrella** — clear onboarding, lightweight contribution, durable context, and reusable patterns.
-2. **Kickstart Periscope as the first working project** — use the project structure, active work threads, decisions, research, prototypes, and `now.md` in day-to-day work.
-3. **Preserve the community model without over-operationalizing it yet** — the principles for engagement, contribution quality, and stewardship live under [`community/`](community/), ready to evolve when broader participation warrants it.
+### 1. Establish the UX AI Context umbrella
+Make onboarding, contribution, retrieval, and reuse simple enough that the system becomes useful without becoming process.
 
-The immediate test is simple: does this make the work easier to understand, continue, and reuse?
+### 2. Kickstart Periscope
+[Periscope](projects/periscope/) is the first working project using the pattern.
+
+Start with:
+- [Project overview](projects/periscope/README.md)
+- [Current state](projects/periscope/now.md)
+- [Active work](projects/periscope/work/)
+
+### 3. Preserve the community model for later
+The [community principles](community/) capture how Teams, Viva Engage, email, demos, and other engagement can eventually feed high-signal context without turning the repo into a dumping ground.
+
+For now, they are guidance — not an operating bureaucracy.
 
 ---
 
 ## Start here
 
-Choose the path that matches what you need.
-
-| I want to... | Start here |
+| I want to... | Go here |
 |---|---|
-| Join the repo for the first time | [Getting Started](docs/GETTING-STARTED.md) |
-| Add notes, research, decisions, or updates | [Working with Context](docs/WORKING-WITH-CONTEXT.md) |
-| See blank templates and completed examples | [Templates](templates/README.md) |
-| Start a new project using the same setup | [Add a Project](docs/ADD-A-PROJECT.md) |
-| Share something that has proven reusable | [Shared assets](shared/README.md) |
-| Review the community engagement / contribution principles | [Community](community/README.md) |
-| Understand how this scales across teams | [Scale the System](docs/SCALE.md) |
-| Use Copilot or another AI agent with the repo | [Agent Guide](AGENTS.md) |
+| Join for the first time | [Getting Started](docs/GETTING-STARTED.md) |
+| Contribute notes, research, decisions, or updates | [Working with Context](docs/WORKING-WITH-CONTEXT.md) |
+| Work on Periscope | [Periscope](projects/periscope/) |
+| Use a template or see a completed example | [Templates](templates/README.md) |
+| Start another project | [Add a Project](docs/ADD-A-PROJECT.md) |
+| Share something that has proven reusable | [Shared](shared/README.md) |
+| Understand the community contribution model | [Community](community/README.md) |
+| Understand how this scales | [Scale the System](docs/SCALE.md) |
+| Use Copilot or another agent | [Agent Guide](AGENTS.md) |
 
-If you are new to GitHub, start with **Getting Started**. You can contribute directly on GitHub.com without installing anything.
+New to GitHub? Start with **Getting Started**. You can make useful contributions directly on GitHub.com without installing anything.
 
 ---
 
-## How it works
+## The operating model
 
 ```text
-Daily work happens where it belongs
-Figma · Jira · SharePoint · Teams · code repositories
+Work happens where it belongs
+Figma · Teams · Jira · SharePoint · code · research
                          │
                          ▼
-                 uxai-context
+                    uxai-context
           durable context + links + Git history
                          │
-        ┌────────────────┼────────────────┐
-        ▼                ▼                ▼
-     People         Copilot/agents     Periscope
+          ┌──────────────┼──────────────┐
+          ▼              ▼              ▼
+       People         AI/agents      Periscope
+          │              │              │
+          └──────────────┼──────────────┘
+                         ▼
+                  better next work
 ```
-
-The repository does **not** try to replace the tools teams already use.
-
-It connects them with durable context.
-
-> **Link to the artifact. Capture the context.**
-
-### How this fits with the UX AI community
-
-UX AI Context is the durable layer behind the conversations and sharing that happen across the community.
-
-```text
-Teams · Viva Engage · email · demos · conversations
-                     │
-             discover / discuss / share
-                     │
-                     ▼
-                uxai-context
-        capture / connect / reuse / evolve
-                     │
-        ┌────────────┼────────────┐
-        ▼            ▼            ▼
-     projects      shared       agents /
-                  capability    Periscope
-```
-
-Use community channels for reach, conversation, questions, demos, and invitations to participate.
-
-Use `uxai-context` when something should remain useful after the conversation: project context, a decision, research, prototype learning, a reusable pattern, a skill, an agent recipe, or a link to useful internal tooling.
-
-The repo is **not** intended to replace Teams, Viva Engage, email, Jira, or other systems. It gives the community a shared place where useful work can compound instead of disappearing into individual channels.
-
-A healthy loop is:
-
-```text
-share something → discuss it → try/build/learn → capture what matters → share it back
-```
-
-### Deep expertise. Broader contribution. Shared context.
-
-UX AI Context is designed for teams where contribution increasingly crosses traditional role boundaries without erasing specialist depth.
-
-A researcher may help shape an experience. A designer may prototype working behavior. A design engineer may influence interaction direction. Product, content, engineering, and AI-enabled contributors may all move work forward in different ways.
-
-The point is **not** that everyone does everything. The point is that fewer handoffs are required when people have the context and capability to contribute meaningfully across the loop.
-
-Shared context helps that broader contribution retain depth: evidence, rationale, design intent, decisions, implementation learning, and history remain connected.
-
----
-
-## The project pattern
-
-Every project starts with the same small contract:
-
-```text
-projects/<project>/
-├── README.md       # what the project is
-├── now.md          # what matters right now
-├── project.yaml    # lightweight structured identity
-├── decisions/
-├── meetings/
-├── research/
-└── prototypes/
-```
-
-This gives people a predictable place to start and gives AI/downstream tools a consistent structure to understand.
-
-Use the [Project Starter Kit](templates/project-starter/) when adding another project.
-
----
-
-## Current project
-
-### [Periscope](projects/periscope/)
-
-Periscope is one of the first projects using this context pattern and can also consume the structured context as part of UX AI dogfooding.
-
-Start with:
-
-- [Project overview](projects/periscope/README.md)
-- [Current state](projects/periscope/now.md)
-
-Periscope is one consumer of the context layer, not the reason the repository exists.
-
----
-
-## What belongs here
-
-Capture durable context that will help someone understand or advance the work later.
-
-Good examples:
-
-- important decisions and why they were made
-- research findings and implications
-- meaningful changes in project direction
-- prototype learnings
-- important open questions
-- useful meeting outcomes
-- links to authoritative artifacts
-- the current project snapshot
-
-Usually skip:
-
-- every chat message
-- every small task
-- routine status narration
-- copies of content that already has a source of truth elsewhere
-
----
-
-## Where does the source live?
-
-| Type of work | Usually lives in |
-|---|---|
-| Design | Figma |
-| Code | Product/code repository |
-| Enterprise documents | SharePoint / OneDrive |
-| Formal delivery tracking | Jira |
-| Fast conversation | Teams |
-| Durable project context | `uxai-context` |
-
-The context repo should explain **why something matters, what changed, what we learned, and where to find the authoritative artifact**.
-
----
-
-## Two contribution modes
-
-### GitHub.com — easiest
-
-Best for quick updates and people new to Git.
-
-Open a file → **Edit** → make the change → **Commit changes**.
-
-To add a new note:
-
-1. open [Templates](templates/README.md)
-2. copy the template you need
-3. go to the relevant project folder
-4. choose **Add file → Create new file**
-5. paste, edit, and commit
-
-See [Getting Started](docs/GETTING-STARTED.md).
-
-### GitHub Desktop + VS Code + Copilot — best for regular contributors
-
-Pull → open in VS Code → edit → review in GitHub Desktop → commit → push.
-
-Copilot can help orient you, find related context, and turn rough notes into concise durable records.
-
----
-
-## Designed to scale with AI
-
-The structure is intentionally simple today but useful for increasingly capable AI systems and long-running agents.
-
-Clear, linked, versioned files give agents durable state they can use to:
-
-- orient to a project
-- find related decisions and research
-- prepare for meetings
-- summarize what changed
-- identify open questions
-- suggest context updates
-- connect work across artifacts
-- continue longer-running tasks
-
-We do **not** need to build a separate agent platform now.
-
-The foundation is:
-
-**clear files + consistent entry points + source links + Git history + human review.**
-
-See [AGENTS.md](AGENTS.md).
-
----
-
-## Initial use cases
-
-1. **Shared project context** — understand what a project is and where it stands.
-2. **Community collaboration** — give Teams, Viva Engage, email, demos, and working conversations a durable place to land useful outcomes.
-3. **Day-to-day collaboration** — retain useful context created while the team works.
-4. **AI-assisted work** — give Copilot and future agents reliable project state.
-5. **Onboarding** — help new contributors orient without reconstructing history.
-6. **Reporting and synthesis** — derive updates from existing context.
-7. **Context experiences** — support Periscope and other discovery/navigation experiences.
-8. **Reusable capability** — let useful patterns, skills, prompts, agent recipes, and tooling references emerge from real project work.
-9. **Future discovery** — connect projects, people, research, decisions, prototypes, and learnings as the system grows.
-
----
-
-## Repository map
-
-```text
-uxai-context/
-├── README.md
-├── CONTRIBUTING.md
-├── AGENTS.md
-│
-├── docs/
-│   ├── README.md
-│   ├── GETTING-STARTED.md
-│   ├── WORKING-WITH-CONTEXT.md
-│   ├── ADD-A-PROJECT.md
-│   └── SCALE.md
-│
-├── projects/
-│   └── periscope/
-│       ├── README.md
-│       ├── now.md
-│       ├── project.yaml
-│       ├── decisions/
-│       ├── meetings/
-│       ├── research/
-│       ├── prototypes/
-│       └── work/
-│
-├── community/
-│   ├── README.md
-│   ├── engagement/
-│   ├── contributions/
-│   └── governance/
-│
-├── shared/
-│   └── README.md
-│
-└── templates/
-    ├── README.md
-    ├── decision.md
-    ├── meeting.md
-    ├── research-note.md
-    ├── work-thread.md
-    ├── project-starter/
-    └── examples/
-```
-
----
-
-## The operating rule
 
 When meaningful work happens, ask:
 
 > **Did we learn, decide, or change something another person should be able to find later?**
 
-If yes, make the smallest useful context update.
+If yes, make the smallest useful update.
 
-If part of the work proves useful beyond the project, consider promoting only that reusable part into [`shared/`](shared/README.md).
-
-That is the system.
+If part of the work proves useful beyond one project, promote **only the reusable part** into [`shared/`](shared/README.md).
 
 ---
 
@@ -320,8 +111,26 @@ That is the system.
 - **Capture what will remain useful.**
 - **Capture the reusable part, not everything.**
 - **Link rather than duplicate.**
-- **Standardize the entry points, not every project's content.**
-- **Prefer current context over exhaustive documentation.**
+- **Share broadly. Promote selectively.**
+- **Promote signal, not activity.**
 - **Use AI to reduce coordination and documentation effort.**
-- **Write once and enable many uses.**
-- **Let the system evolve through use.**
+- **Standardize entry points; let structure evolve through use.**
+
+---
+
+## Repository map
+
+```text
+uxai-context/
+├── README.md
+├── CONTRIBUTING.md
+├── AGENTS.md
+├── docs/          # onboarding, working model, replication, scale
+├── projects/      # active project context
+├── shared/        # proven reusable capability
+├── community/     # engagement + contribution + governance principles
+├── templates/     # lightweight starting points + examples
+└── assets/        # communication assets
+```
+
+For the practical guides, see [docs/README.md](docs/README.md).
