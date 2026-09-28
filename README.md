@@ -16,6 +16,18 @@ It helps project teams and the broader UX AI community keep useful work easy to 
 
 ---
 
+## Current focus
+
+We are intentionally keeping the system small while we prove it through real work.
+
+1. **Establish UX AI Context as the shared umbrella** — clear onboarding, lightweight contribution, durable context, and reusable patterns.
+2. **Kickstart Periscope as the first working project** — use the project structure, active work threads, decisions, research, prototypes, and `now.md` in day-to-day work.
+3. **Preserve the community model without over-operationalizing it yet** — the principles for engagement, contribution quality, and stewardship live under [`community/`](community/), ready to evolve when broader participation warrants it.
+
+The immediate test is simple: does this make the work easier to understand, continue, and reuse?
+
+---
+
 ## Start here
 
 Choose the path that matches what you need.
@@ -27,6 +39,7 @@ Choose the path that matches what you need.
 | See blank templates and completed examples | [Templates](templates/README.md) |
 | Start a new project using the same setup | [Add a Project](docs/ADD-A-PROJECT.md) |
 | Share something that has proven reusable | [Shared assets](shared/README.md) |
+| Review the community engagement / contribution principles | [Community](community/README.md) |
 | Understand how this scales across teams | [Scale the System](docs/SCALE.md) |
 | Use Copilot or another AI agent with the repo | [Agent Guide](AGENTS.md) |
 
@@ -261,7 +274,14 @@ uxai-context/
 │       ├── decisions/
 │       ├── meetings/
 │       ├── research/
-│       └── prototypes/
+│       ├── prototypes/
+│       └── work/
+│
+├── community/
+│   ├── README.md
+│   ├── engagement/
+│   ├── contributions/
+│   └── governance/
 │
 ├── shared/
 │   └── README.md
