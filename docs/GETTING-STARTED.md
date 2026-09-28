@@ -2,12 +2,22 @@
 
 This guide is for anyone joining `uxai-context` for the first time — including people who have never worked in GitHub before.
 
+You may arrive here from a Teams post, Viva Engage conversation, email, demo, meeting, or a direct project link. You do **not** need to become a Git expert or even contribute immediately. Browsing, reusing, and sharing useful context are all valid ways to participate.
+
 You can contribute in two ways:
 
 1. **GitHub.com — easiest path.** No local setup required.
 2. **GitHub Desktop + VS Code + Copilot — best for regular contributors.**
 
 Start with GitHub.com. Move to the local workflow when it becomes useful.
+
+A simple participation path is:
+
+```text
+browse → understand → contribute when useful → reuse/share
+```
+
+The goal is participation, not process.
 
 ---
 
