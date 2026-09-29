@@ -1,8 +1,9 @@
 ---
 type: work
 project: example-project
-status: active
+status: proposal
 owner: example-owner
+last-reviewed: 2026-09-28
 topics:
   - discovery
   - prototype

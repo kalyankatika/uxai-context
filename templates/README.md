@@ -2,6 +2,8 @@
 
 Templates make it easy to capture useful context without starting from a blank page.
 
+See [Context record schema](CONTEXT-SCHEMA.md) for required front matter, ownership, and review freshness.
+
 ## Start with what you need
 
 | Need | Blank template | Completed reference example |
