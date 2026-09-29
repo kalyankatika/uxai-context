@@ -1,7 +1,9 @@
 ---
 type: decision
 project: example-project
-status: active
+status: decision
+owner: example-owner
+last-reviewed: 2026-09-28
 date: 2026-09-27
 topics:
   - discoverability
