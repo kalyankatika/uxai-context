@@ -1,8 +1,10 @@
 ---
 type: research
 project:
+status: <idea|proposal|decision|superseded>
+owner:
+last-reviewed:
 date:
-status:
 topics: []
 ---
 
