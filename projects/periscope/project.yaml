@@ -10,7 +10,7 @@ context:
   reviewed:
 
 sources:
-  github:
+  github: https://github.com/kalyankatika/uxd-periscope
   figma:
   jira:
   sharepoint:
