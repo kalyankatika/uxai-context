@@ -14,6 +14,6 @@ Do not add:
 
 Follow the applicable internal information-handling, source-control, intellectual-property, and open-source policies.
 
-**Internal policy reference: TBD — confirm the governing policy before merging this change.**
+**Internal policy reference: TBD — add the specific governing policy when it is available.**
 
-If this notice conflicts with an applicable internal policy, the internal policy governs.
+This placeholder does not replace internal policy. If it conflicts with an applicable internal policy, the internal policy governs.
