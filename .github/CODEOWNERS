@@ -1,3 +1,5 @@
-# Initial CODEOWNERS entry uses the current repository owner.
-# Replace with the approved UX AI maintainer team when that GitHub team exists.
+# Current default owner.
+# Add or replace with approved UX AI GitHub team handles as the contributor model evolves.
+# Example:
+# * @kalyankatika @your-org/ux-ai-maintainers
 * @kalyankatika
