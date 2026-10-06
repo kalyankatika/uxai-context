@@ -1,32 +1,21 @@
-# Periscope — Current State
+# Periscope — where we are
 
-_Last updated: 2026-10-05 (New York); repository baseline captured 2026-10-06 00:12 UTC._
+_Repository evidence checked October 5, 2026, at 20:12 New York time. This is a dated snapshot._
 
-## What we are trying to accomplish
+Help design leaders see what needs attention across projects, people and capacity.
 
-Help design leaders understand projects, priorities, people and capacity, and identify where attention is needed. Keep the operating context here; link to implementation and verification in [uxd-periscope](https://github.com/kalyankatika/uxd-periscope).
+## What is working
 
-## Current focus
+The main build supports portfolio views, reporting relationships, capacity and reviewed CSV imports. Onboarding checks passed. [Build evidence](https://github.com/kalyankatika/uxd-periscope/blob/cdc58155a8b7f55dd3d0f465a364b0e6ef4c94d5/BUILD_STATE.md).
 
-Capture the as-is setup and trial a lightweight outcome-driven working loop. [Operating model and activity baseline](operating-model.md) separates observed facts from the proposed Intent → Shape → Plan → Make → Prove → Learn cadence. No new feature commitment or owner assignment is implied.
+## What needs attention
 
-## What changed recently
+- **Newer work is still separate.** Organization-explorer includes new maps, a matrix, leadership brief and timeline. Its latest recorded automated check failed; it has not been integrated into main. [Branch](https://github.com/kalyankatika/uxd-periscope/tree/codex/organization-explorer).
+- **We still need evidence from people using it.** Existing walkthroughs were AI-assisted. They do not tell us whether leaders find Periscope useful.
+- **The next product focus is not recorded.** Bring the next agreed priority here; we should not infer one from the feature backlog.
 
-- Main records completed onboarding verification; separate organization-explorer branch work remains unmerged with a failed remote check at the baseline.
-- The initial activity capture found 1 merged Periscope PR and 1 open context PR, before these documentation changes. See the [dated snapshot and counting method](operating-model.md#activity-snapshot).
+## Add something useful
 
-## What we are learning
+A link and a sentence are enough: “This was confusing,” “We decided…,” or “I need help with…”. The agent can fold it into this page; no template is required.
 
-PR counts alone miss substantial commit and branch activity. Technical verification and AI-assisted walkthroughs do not establish real-user usefulness.
-
-## Decisions pending
-
-Choose the next outcome, its driver and evidence sought; name a contributor for a proposed two-capture weekly trial.
-
-## Blockers / open questions
-
-Branch integration/CI and real-user usefulness need follow-up. The [context governance PR](https://github.com/kalyankatika/uxai-context/pull/1) is still a proposal at the baseline.
-
-## Next
-
-Confirm one outcome here, link its evidence and next move, and use the existing weekly context habit to keep this page current.
+[Activity counts and sources](operating-model.md#activity-baseline)
