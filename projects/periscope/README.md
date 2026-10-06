@@ -23,18 +23,16 @@ If you already know what you want to capture, use the [shared templates](../../t
 
 ## Project overview
 
-Add a concise description of:
+Periscope is a local UXD workspace connecting projects, people, reporting relationships, priorities and capacity. It aims to help design leaders understand the portfolio and where attention is needed.
 
-- what Periscope is
-- who it serves
-- what outcome it is trying to create
+This folder holds intent, current focus, decisions and learning. Implementation and build evidence live in the product repository. The [working loop and activity baseline](operating-model.md) captures the current setup and a proposed lightweight capture cadence.
 
 Keep this section relatively stable. Use [now.md](now.md) for current activity and changing priorities.
 
 ## Important links
 
 - Figma:
-- Product/code repository:
+- Product/code repository: [uxd-periscope](https://github.com/kalyankatika/uxd-periscope)
 - Jira:
 - SharePoint / OneDrive:
 - Other:
