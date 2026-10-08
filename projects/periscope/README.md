@@ -41,7 +41,7 @@ Keep this section relatively stable. Use [now.md](now.md) for current activity a
 
 ---
 
-## How to contribute
+**Working routine:** [AI-native working model](../../docs/AI-NATIVE-WORKING-MODEL.md) · [Fictional one-week walkthrough](../../templates/examples/ai-native-week/README.md). These are reusable guidance and illustrative examples, not Periscope activity records.\n\n## How to contribute
 
 Use the smallest durable update that fits what changed.
 
