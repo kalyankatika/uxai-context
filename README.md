@@ -60,7 +60,7 @@ For now, they are guidance — not an operating bureaucracy.
 
 | I want to... | Go here |
 |---|---|
-| Join for the first time | [Getting Started](docs/GETTING-STARTED.md) |
+| Learn our AI-native human + agent working routine | [AI-native Working Model](playbooks/ai-native-product-work/README.md) · [Guided fictional week](playbooks/ai-native-product-work/examples/one-week/README.md) |\n| Join for the first time | [Getting Started](docs/GETTING-STARTED.md) |
 | Contribute notes, research, decisions, or updates | [Working with Context](docs/WORKING-WITH-CONTEXT.md) |
 | Work on Periscope | [Periscope](projects/periscope/) |
 | Use a template or see a completed example | [Templates](templates/README.md) |

@@ -10,7 +10,7 @@ Before helping with a project, read:
 
 Read deeper material only when relevant.
 
-## Understand before changing
+## Drive work responsibly\nWhen asked to originate, drive or continue substantive work, follow the [AI-native working model](playbooks/ai-native-product-work/PLAYBOOK.md). Agents can be execution drivers within approved scope, not just summarizers. For agent-driven work, identify the human steward, allowed tools/data/actions, verification, and stop/escalation conditions. Track execution in the product repository and preserve only durable context here. Do not declare a consequential product outcome accepted or expand privileged scope without authorized human judgment.\n\n## Understand before changing
 - look for existing related context
 - check relevant decisions and research
 - prefer current information
