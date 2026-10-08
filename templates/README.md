@@ -13,7 +13,7 @@ Templates make it easy to capture useful context without starting from a blank p
 | See what a useful `now.md` looks like | — | [current-state example](examples/now-example.md) |
 | Start an entirely new project | [project starter kit](project-starter/) | See [Add a Project](../docs/ADD-A-PROJECT.md) |
 
-## How to use a note template
+**Full walkthrough:** [One fictional week of AI-native product work](examples/ai-native-week/README.md) — generic contributors, work records, current focus, PR activity, and evidence. Not real project history.\n\n## How to use a note template
 
 1. Open the blank template.
 2. Copy it into the relevant project folder.
