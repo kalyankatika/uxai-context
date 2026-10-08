@@ -7,7 +7,7 @@ Use this folder when you need more detail than the root [README](../README.md).
 | Need | Guide |
 |---|---|
 | I am new to the repo or new to GitHub | [Getting Started](GETTING-STARTED.md) |
-| I need to capture or update project context | [Working with Context](WORKING-WITH-CONTEXT.md) |
+| I want a lightweight AI-native routine for priorities, work and activity | [AI-native Working Model](AI-NATIVE-WORKING-MODEL.md) |\n| I need to capture or update project context | [Working with Context](WORKING-WITH-CONTEXT.md) |
 | I need to add another project | [Add a Project](ADD-A-PROJECT.md) |
 | I need to understand how the model can scale | [Scale the System](SCALE.md) |
 | I want templates or examples | [Templates](../templates/README.md) |
