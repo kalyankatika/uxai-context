@@ -47,7 +47,7 @@ Every file has a different job. **You don't need every file for every change.**
 The team wants two concrete improvements to a sample product:
 
 - **Navigation coherence:** Help someone go portfolio → initiative → portfolio without confusion. **Contributor B (a person)** drives this work; the other contributors and agents assist. It **resolves** by Friday for its agreed scope.
-- **Portfolio data foundation:** Make representative portfolio data survive a save/reload. **Agent Session D1** is the **execution driver** within a human-approved scope; **Contributor A** is the accountable human steward. It **does not resolve** by Friday because error recovery is still unproven.
+- **Portfolio data foundation:** Make representative portfolio data survive a save/reload. **Agent-01** is the **execution driver** within a human-approved scope; **Contributor A** is the accountable human steward. It **does not resolve** by Friday because error recovery is still unproven.
 
 Other human contributors are **Contributor C** (research emphasis) and **Contributor D** (product/program emphasis). All can cross these boundaries.
 
