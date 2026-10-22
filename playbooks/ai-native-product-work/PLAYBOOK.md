@@ -66,12 +66,12 @@ Keep the headings that already exist in the project's file. Under **Current focu
 Driver: Agent — scoped data-foundation task
 Human steward: Contributor A
 Next: Verify incomplete-record handling and propose a safe fix.
-Context: [Data work](work/portfolio-data.md)
+Context: [Data work](examples/one-week/work/portfolio-data.md)
 
 ### Navigation refinement
 Driver: Contributor B
 Next: Evaluate the integrated flow.
-Context: [Navigation work](work/platform-navigation.md)
+Context: [Navigation work](examples/one-week/work/platform-navigation.md)
 ```
 
 Agent sessions or task links should be included if they exist. A specific agent's execution may end while the work item persists: transfer the driver or spawn a new **approved, bounded** agent session rather than assuming infinite autonomous continuity.
