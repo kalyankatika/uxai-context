@@ -61,7 +61,7 @@ The agent is not merely taking notes or assisting a person: it investigates the 
 
 ### Step A — Monday: Orient and choose focus
 
-Read the **Monday excerpt** in [walkthrough.md](walkthrough.md#monday--orient-choose-focus). That is how the single living `now.md` looked *then*. Compare it with [the Friday view](now.md). Notice the file did not multiply: Git would retain its Monday revision.
+Read the **Monday excerpt** in [walkthrough.md](walkthrough.md#monday-orient-choose-focus). That is how the single living `now.md` looked *then*. Compare it with [the Friday view](now.md). Notice the file did not multiply: Git would retain its Monday revision.
 
 **Question to answer:** Can you see what matters and the next useful move without reading a board?
 
@@ -87,7 +87,7 @@ Read [the PR entries](activity.md#fictional-pr-ledger). These are *illustrative*
 
 ### Step D — Thursday: Prove, change direction
 
-Read [the evaluation](walkthrough.md#thursday--evidence-changes-the-work). A small fictional walkthrough shows a comprehension problem. The design and code change, and the work record captures why.
+Read [the evaluation](walkthrough.md#thursday-evidence-changes-the-work). A small fictional walkthrough shows a comprehension problem. The design and code change, and the work record captures why.
 
 **Question:** Do we need a retrospective to retain that learning? (No: capture it with the work when it changes what we do.)
 
