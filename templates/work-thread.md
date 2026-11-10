@@ -28,4 +28,6 @@ Where are we now?
 - 
 
 ## Next
-- 
+-
+
+<!-- Optional for agent-driven work: note the agent execution driver, human steward, approved scope, verification, run/PR link, and conditions for escalation. Human acceptance is distinct from agent-run completion. -->
