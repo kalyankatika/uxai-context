@@ -204,6 +204,7 @@ A project is healthy when:
 - someone new can orient without a meeting
 - people and AI can answer important project questions from the repo and its linked sources
 - missing answers expose useful context gaps rather than triggering blanket documentation
+- context records reviewed more than 90 days ago are flagged for review
 - the team is not spending significant time maintaining the system
 
 If maintaining the context becomes the work, simplify it.

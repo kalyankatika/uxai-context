@@ -1,6 +1,9 @@
 ---
 type: meeting
 project:
+status: <idea|proposal|decision|superseded>
+owner:
+last-reviewed:
 date:
 participants: []
 topics: []
@@ -15,10 +18,10 @@ Why are we meeting?
 Capture only durable context.
 
 ## Decisions
-- 
+-
 
 ## Open questions
-- 
+-
 
 ## Actions
-- [ ] 
+- [ ]

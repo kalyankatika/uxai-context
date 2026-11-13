@@ -63,6 +63,7 @@ For now, they are guidance — not an operating bureaucracy.
 | Join for the first time | [Getting Started](docs/GETTING-STARTED.md) |
 | Contribute notes, research, decisions, or updates | [Working with Context](docs/WORKING-WITH-CONTEXT.md) |
 | Work on Periscope | [Periscope](projects/periscope/) |
+| Browse projects and current owners/status | [Project Index](docs/INDEX.md) |
 | Use a template or see a completed example | [Templates](templates/README.md) |
 | Start another project | [Add a Project](docs/ADD-A-PROJECT.md) |
 | Share something that has proven reusable | [Shared](shared/README.md) |

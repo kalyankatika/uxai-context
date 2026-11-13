@@ -6,11 +6,11 @@ group: ux-ai
 context:
   readme: ./README.md
   current: ./now.md
-  steward:
+  steward: @kalyankatika
   reviewed:
 
 sources:
-  github:
+  github: https://github.com/kalyankatika/uxd-periscope
   figma:
   jira:
   sharepoint:

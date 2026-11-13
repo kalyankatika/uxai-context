@@ -2,7 +2,9 @@
 type: research
 project: example-project
 date: 2026-09-27
-status: active
+status: idea
+owner: example-owner
+last-reviewed: 2026-09-28
 topics:
   - discoverability
   - mental-model

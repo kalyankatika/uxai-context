@@ -1,8 +1,9 @@
 ---
 type: work
 project:
-status:
+status: <idea|proposal|decision|superseded>
 owner:
+last-reviewed:
 topics: []
 ---
 
@@ -25,7 +26,7 @@ Where are we now?
 - Other:
 
 ## Decisions / learning
-- 
+-
 
 ## Next
-- 
+-

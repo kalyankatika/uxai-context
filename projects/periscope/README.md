@@ -31,10 +31,21 @@ Add a concise description of:
 
 Keep this section relatively stable. Use [now.md](now.md) for current activity and changing priorities.
 
+## Repository relationship
+
+This repository and [`uxd-periscope`](https://github.com/kalyankatika/uxd-periscope) serve different purposes:
+
+| Repository | Holds |
+|---|---|
+| `uxai-context/projects/periscope/` | project context, current state, decisions, research, prototype learning, active work threads, and links to sources |
+| `uxd-periscope` | executable application code, technical implementation docs, tests, build state, and code-specific artifacts |
+
+Keep implementation changes in `uxd-periscope`. Keep durable cross-functional project context here, and link between the two when useful.
+
 ## Important links
 
 - Figma:
-- Product/code repository:
+- Product/code repository: https://github.com/kalyankatika/uxd-periscope
 - Jira:
 - SharePoint / OneDrive:
 - Other:

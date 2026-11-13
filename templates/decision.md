@@ -1,7 +1,9 @@
 ---
 type: decision
 project:
-status: active
+status: decision
+owner:
+last-reviewed:
 date:
 topics: []
 ---

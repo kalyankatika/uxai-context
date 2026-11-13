@@ -41,6 +41,27 @@ Pull → edit in VS Code → review in GitHub Desktop → commit → push.
 
 See the full [Getting Started guide](docs/GETTING-STARTED.md).
 
+## Never commit
+
+Never commit:
+
+- secrets, API keys, tokens, passwords, private keys, or other credentials
+- customer data
+- personal data or personally identifiable information
+- confidential employer content
+- environment files or exports that may contain any of the above
+
+Use placeholders, synthetic examples, or links to approved source systems instead.
+
+Before opening or updating a pull request, run:
+
+```sh
+python3 scripts/secret_scan.py
+python3 scripts/context_staleness.py
+```
+
+The repository hygiene workflow runs these checks on pull requests.
+
 ## Keep it light
 
 Capture durable context, not every activity.
